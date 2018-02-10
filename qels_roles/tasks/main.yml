@@ -1,0 +1,7 @@
+---
+
+- name: initial clone from tag v{{ version }}
+  git:
+      repo: 'https://github.com/Amitgb14/qels.git'
+      dest: /tmp/qels
+      version: "{{ version }}"
